@@ -1,0 +1,671 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuyCarForm component should render the right way 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BuyCarForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="card-header"
+        >
+          <strong>
+            Buy a car
+          </strong>
+          <button
+            className="btn btn-sm btn-link float-right"
+            onClick={[Function]}
+          >
+            reset
+          </button>
+        </div>,
+        <div
+          className="card-body"
+        >
+          <Dropdown
+            label="Brand"
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "label": "Jeep",
+                  "value": "jeep",
+                },
+                Object {
+                  "label": "Fiat",
+                  "value": "fiat",
+                },
+                Object {
+                  "label": "BMW",
+                  "value": "bmw",
+                },
+                Object {
+                  "label": "Audi",
+                  "value": "audi",
+                },
+                Object {
+                  "label": "Volkswagen",
+                  "value": "volkswagen",
+                },
+                Object {
+                  "label": "Chevrolet",
+                  "value": "chevrolet",
+                },
+                Object {
+                  "label": "Ferrari",
+                  "value": "ferrari",
+                },
+                Object {
+                  "label": "Tesla",
+                  "value": "tesla",
+                },
+              ]
+            }
+            placeholder="- All Brands -"
+            selectedOption={null}
+          />
+          <Dropdown
+            label="Model"
+            onChange={[Function]}
+            options={Array []}
+            placeholder="- select a brand first -"
+            selectedOption={null}
+          />
+          <InputText
+            label="Keywords"
+            onChange={[Function]}
+            value=""
+          />
+        </div>,
+        <div
+          className="card-footer"
+        >
+          <button
+            className="btn btn-primary btn-block"
+            disabled={true}
+          >
+            Search Cars
+          </button>
+        </div>,
+      ],
+      "className": "card BuyCarForm",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <strong>
+              Buy a car
+            </strong>,
+            <button
+              className="btn btn-sm btn-link float-right"
+              onClick={[Function]}
+            >
+              reset
+            </button>,
+          ],
+          "className": "card-header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Buy a car",
+            },
+            "ref": null,
+            "rendered": "Buy a car",
+            "type": "strong",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "reset",
+              "className": "btn btn-sm btn-link float-right",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "reset",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Dropdown
+              label="Brand"
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": "Jeep",
+                    "value": "jeep",
+                  },
+                  Object {
+                    "label": "Fiat",
+                    "value": "fiat",
+                  },
+                  Object {
+                    "label": "BMW",
+                    "value": "bmw",
+                  },
+                  Object {
+                    "label": "Audi",
+                    "value": "audi",
+                  },
+                  Object {
+                    "label": "Volkswagen",
+                    "value": "volkswagen",
+                  },
+                  Object {
+                    "label": "Chevrolet",
+                    "value": "chevrolet",
+                  },
+                  Object {
+                    "label": "Ferrari",
+                    "value": "ferrari",
+                  },
+                  Object {
+                    "label": "Tesla",
+                    "value": "tesla",
+                  },
+                ]
+              }
+              placeholder="- All Brands -"
+              selectedOption={null}
+            />,
+            <Dropdown
+              label="Model"
+              onChange={[Function]}
+              options={Array []}
+              placeholder="- select a brand first -"
+              selectedOption={null}
+            />,
+            <InputText
+              label="Keywords"
+              onChange={[Function]}
+              value=""
+            />,
+          ],
+          "className": "card-body",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "label": "Brand",
+              "onChange": [Function],
+              "options": Array [
+                Object {
+                  "label": "Jeep",
+                  "value": "jeep",
+                },
+                Object {
+                  "label": "Fiat",
+                  "value": "fiat",
+                },
+                Object {
+                  "label": "BMW",
+                  "value": "bmw",
+                },
+                Object {
+                  "label": "Audi",
+                  "value": "audi",
+                },
+                Object {
+                  "label": "Volkswagen",
+                  "value": "volkswagen",
+                },
+                Object {
+                  "label": "Chevrolet",
+                  "value": "chevrolet",
+                },
+                Object {
+                  "label": "Ferrari",
+                  "value": "ferrari",
+                },
+                Object {
+                  "label": "Tesla",
+                  "value": "tesla",
+                },
+              ],
+              "placeholder": "- All Brands -",
+              "selectedOption": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "label": "Model",
+              "onChange": [Function],
+              "options": Array [],
+              "placeholder": "- select a brand first -",
+              "selectedOption": null,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "label": "Keywords",
+              "onChange": [Function],
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="btn btn-primary btn-block"
+            disabled={true}
+          >
+            Search Cars
+          </button>,
+          "className": "card-footer",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search Cars",
+            "className": "btn btn-primary btn-block",
+            "disabled": true,
+          },
+          "ref": null,
+          "rendered": "Search Cars",
+          "type": "button",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="card-header"
+          >
+            <strong>
+              Buy a car
+            </strong>
+            <button
+              className="btn btn-sm btn-link float-right"
+              onClick={[Function]}
+            >
+              reset
+            </button>
+          </div>,
+          <div
+            className="card-body"
+          >
+            <Dropdown
+              label="Brand"
+              onChange={[Function]}
+              options={
+                Array [
+                  Object {
+                    "label": "Jeep",
+                    "value": "jeep",
+                  },
+                  Object {
+                    "label": "Fiat",
+                    "value": "fiat",
+                  },
+                  Object {
+                    "label": "BMW",
+                    "value": "bmw",
+                  },
+                  Object {
+                    "label": "Audi",
+                    "value": "audi",
+                  },
+                  Object {
+                    "label": "Volkswagen",
+                    "value": "volkswagen",
+                  },
+                  Object {
+                    "label": "Chevrolet",
+                    "value": "chevrolet",
+                  },
+                  Object {
+                    "label": "Ferrari",
+                    "value": "ferrari",
+                  },
+                  Object {
+                    "label": "Tesla",
+                    "value": "tesla",
+                  },
+                ]
+              }
+              placeholder="- All Brands -"
+              selectedOption={null}
+            />
+            <Dropdown
+              label="Model"
+              onChange={[Function]}
+              options={Array []}
+              placeholder="- select a brand first -"
+              selectedOption={null}
+            />
+            <InputText
+              label="Keywords"
+              onChange={[Function]}
+              value=""
+            />
+          </div>,
+          <div
+            className="card-footer"
+          >
+            <button
+              className="btn btn-primary btn-block"
+              disabled={true}
+            >
+              Search Cars
+            </button>
+          </div>,
+        ],
+        "className": "card BuyCarForm",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <strong>
+                Buy a car
+              </strong>,
+              <button
+                className="btn btn-sm btn-link float-right"
+                onClick={[Function]}
+              >
+                reset
+              </button>,
+            ],
+            "className": "card-header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Buy a car",
+              },
+              "ref": null,
+              "rendered": "Buy a car",
+              "type": "strong",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "reset",
+                "className": "btn btn-sm btn-link float-right",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "reset",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Dropdown
+                label="Brand"
+                onChange={[Function]}
+                options={
+                  Array [
+                    Object {
+                      "label": "Jeep",
+                      "value": "jeep",
+                    },
+                    Object {
+                      "label": "Fiat",
+                      "value": "fiat",
+                    },
+                    Object {
+                      "label": "BMW",
+                      "value": "bmw",
+                    },
+                    Object {
+                      "label": "Audi",
+                      "value": "audi",
+                    },
+                    Object {
+                      "label": "Volkswagen",
+                      "value": "volkswagen",
+                    },
+                    Object {
+                      "label": "Chevrolet",
+                      "value": "chevrolet",
+                    },
+                    Object {
+                      "label": "Ferrari",
+                      "value": "ferrari",
+                    },
+                    Object {
+                      "label": "Tesla",
+                      "value": "tesla",
+                    },
+                  ]
+                }
+                placeholder="- All Brands -"
+                selectedOption={null}
+              />,
+              <Dropdown
+                label="Model"
+                onChange={[Function]}
+                options={Array []}
+                placeholder="- select a brand first -"
+                selectedOption={null}
+              />,
+              <InputText
+                label="Keywords"
+                onChange={[Function]}
+                value=""
+              />,
+            ],
+            "className": "card-body",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "label": "Brand",
+                "onChange": [Function],
+                "options": Array [
+                  Object {
+                    "label": "Jeep",
+                    "value": "jeep",
+                  },
+                  Object {
+                    "label": "Fiat",
+                    "value": "fiat",
+                  },
+                  Object {
+                    "label": "BMW",
+                    "value": "bmw",
+                  },
+                  Object {
+                    "label": "Audi",
+                    "value": "audi",
+                  },
+                  Object {
+                    "label": "Volkswagen",
+                    "value": "volkswagen",
+                  },
+                  Object {
+                    "label": "Chevrolet",
+                    "value": "chevrolet",
+                  },
+                  Object {
+                    "label": "Ferrari",
+                    "value": "ferrari",
+                  },
+                  Object {
+                    "label": "Tesla",
+                    "value": "tesla",
+                  },
+                ],
+                "placeholder": "- All Brands -",
+                "selectedOption": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "label": "Model",
+                "onChange": [Function],
+                "options": Array [],
+                "placeholder": "- select a brand first -",
+                "selectedOption": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "label": "Keywords",
+                "onChange": [Function],
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="btn btn-primary btn-block"
+              disabled={true}
+            >
+              Search Cars
+            </button>,
+            "className": "card-footer",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Search Cars",
+              "className": "btn btn-primary btn-block",
+              "disabled": true,
+            },
+            "ref": null,
+            "rendered": "Search Cars",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

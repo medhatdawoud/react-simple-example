@@ -26,7 +26,7 @@ export default class BuyCarForm extends Component {
 
   onBrandChange = (brand) => {
     this.setState({selectedBrand:brand,selectedModel:null});
-    this.models = this.models = API_Data.models[brand.value].map(brand => ({
+    this.models = API_Data.models[brand.value].map(brand => ({
       value: brand.toLowerCase(),
       label: brand
     }));
