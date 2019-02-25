@@ -22,10 +22,12 @@
     - `placeholder`: to be passed as default value to the dropdown list
     - `options`: which is list of options to fill the fropdownlist with.
     - `selectedOption`: which is the selected option to be sent from the parent component.
+    - `testHook`: is a property hold the id for the integration testing
   * _InputText Component_ : to generate a textbox with attached label to it, and this component is getting the following list of properties:
+    - `label`: which is obviously the label attached to the input control.
     - `value`: which is the value that should be in the input text box
     - `onChange`: a function to handle the onChange event in the child component.
-    - `label`: which is obviously the label attached to the input control.
+    - `testHook`: is a property hold the id for the integration testing
   * _BuyCarForm Component_ : and this component contains the whole form called the other components to generate controls, and add action to them, and also I handle almost everything in this parent component so it's the single source of truth.
 
 ## Testing Details
