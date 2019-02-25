@@ -34,7 +34,11 @@ export default class BuyCarForm extends Component {
 
   onModelChange = (model) => {
     this.setState({selectedModel:model});
-  } 
+  }
+  
+  onKeywordsChange = (keywords) => {
+    this.setState({keywords});
+  }
 
   resetSearch = () => {
     this.setState({selectedBrand:null,selectedModel:null, keywords:null});
@@ -47,7 +51,7 @@ export default class BuyCarForm extends Component {
       <div className="card BuyCarForm">
         <div className="card-header">
           <strong>Buy a car</strong>
-          <button class="btn btn-sm btn-info float-right" onClick={this.resetSearch}>reset</button>
+          <button className="btn btn-sm btn-info float-right" onClick={this.resetSearch}>reset</button>
         </div>
         <div className="card-body">
           <Dropdown label="Brand" 
@@ -60,7 +64,7 @@ export default class BuyCarForm extends Component {
                 selectedOption={selectedModel}
                 onChange={this.onModelChange} 
                 options={this.models}/>
-          <InputText label="Keywords" />
+          <InputText value={keywords} onChange={this.onKeywordsChange} label="Keywords" />
         </div>
         <div className="card-footer">
           <button className="btn btn-primary btn-block" disabled={!selectedBrand && !selectedModel && !keywords}>Search Cars</button>
