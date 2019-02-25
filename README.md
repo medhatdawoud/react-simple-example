@@ -15,6 +15,7 @@
 * Picked `react` to create this simple application
 * The application is created using the `create-react-app` tool
 * React was the obvious tool to pick since the requirements are pretty simple and it only require some view rendering.
+* I've used mocked data from a json file in the src folder `api.json` that loads some brands and some equevelant models for testing purposes, and it can be replaced by a real API easily.
 * Created 3 components:
   * _Dropdown Component_ : to generate a dropdownlist with attached label to it, and this component is getting the following list of properties:
     - `label`: which is obviously the label attached to the dropdown list
