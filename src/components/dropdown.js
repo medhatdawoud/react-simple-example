@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import Select from 'react-select';
 
 export default class Dropdown extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   handleChange = (selectedOption) => {
     this.props.onChange(selectedOption);
   }
@@ -25,4 +21,3 @@ export default class Dropdown extends Component {
     </div>;
   }
 }
-
