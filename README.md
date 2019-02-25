@@ -9,13 +9,11 @@
 - I've deployed the app into a free dyno host on heroku and you can check it out from [here](https://ebay-buy-car.herokuapp.com) (keep in mind that it might take longer for the first load)
 - this would be a good solution to checkout the task in action faster.
 
----
-
 ## App Technical Details
-* for styling as it's not required to spend a lot of time styling I decided to rely on `twitter-bootstrap 4` so this exercise is fully bootstrap style with out any written css from my end.
-* for dropdownlist I decided to use some third-party library to help out in building dropdownlist searchable and look like the required example as much as possible, so I decided to install [react-select](https://github.com/JedWatson/react-select) which is making a very good look but actually I findout later that it's pretty cumbersome, so maybe we can replace it later with better lighter tools.
+* About styling as it's not required to spend a lot of time styling I decided to rely on `twitter-bootstrap 4` so this exercise is fully bootstrap style without any written css from my end.
+* For dropdownlist I decided to use some third-party library to help out in building dropdownlist searchable and look like the required example as much as possible, so I decided to install [react-select](https://github.com/JedWatson/react-select) which is making a very good look but actually I findout later that it's pretty cumbersome, so maybe we can replace it later with better lighter tools.
 * Picked `react` to create this simple application
-* created the application using `create-react-app` tool
+* The application is created using the `create-react-app` tool
 * React was the obvious tool to pick since the requirements are pretty simple and it only require some view rendering.
 * Created 3 components:
   * _Dropdown Component_ : to generate a dropdownlist with attached label to it, and this component is getting the following list of properties:
@@ -31,10 +29,10 @@
   * _BuyCarForm Component_ : and this component contains the whole form called the other components to generate controls, and add action to them, and also I handle almost everything in this parent component so it's the single source of truth.
 
 ## Testing Details
-* test coverage is 100% for the component
-* used jest and `enzyme` for rendering
+* used `jest` and `enzyme` for rendering
 * you can run unit testing using `npm test`
 * you can also run unit testing coverage using `npm run test:coverage`
+* test coverage is 100% for the component, and you can find that in the terminal after running the above command.
 
 ---
 _Created by:_ Medhat Dawoud ([@med7atdawoud](https://twitter.com/Med7atDawoud))
