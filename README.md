@@ -1,10 +1,40 @@
 # Ebay - FE assessment
 
-## Technical Details
+## How to run the App
+* make sure to have `node` and `npm` installed or `yarn`
+* get into the project folder and run `npm install` or `yarn install`
+* Now you can run the app by running this command `npm start`
+
+## Online version 
+- I've deployed the app into a free dyno host on heroku and you can check it out from [here](https://ebay-buy-car.herokuapp.com) (keep in mind that it might take longer for the first load)
+- this would be a good solution to checkout the task in action faster.
+
+---
+
+## App Technical Details
+* for styling as it's not required to spend a lot of time styling I decided to rely on `twitter-bootstrap 4` so this exercise is fully bootstrap style with out any written css from my end.
+* for dropdownlist I decided to use some third-party library to help out in building dropdownlist searchable and look like the required example as much as possible, so I decided to install [react-select](https://github.com/JedWatson/react-select) which is making a very good look but actually I findout later that it's pretty cumbersome, so maybe we can replace it later with better lighter tools.
 * Picked `react` to create this simple application
 * created the application using `create-react-app` tool
+* React was the obvious tool to pick since the requirements are pretty simple and it only require some view rendering.
+* Created 3 components:
+  * _Dropdown Component_ : to generate a dropdownlist with attached label to it, and this component is getting the following list of properties:
+    - `label`: which is obviously the label attached to the dropdown list
+    - `onChange`: a function to handle the onChange event in the child component.
+    - `placeholder`: to be passed to the dropdown list
+    - `options`: which is list of options to fill the fropdownlist with.
+    - `selectedOption`: which is the selected option to be sent from the parent component.
+  * _InputText Component_ : to generate a textbox with attached label to it, and this component is getting the following list of properties:
+    - `value`: which is the value that should be in the input text box
+    - `onChange`: a function to handle the onChange event in the child component.
+    - `label`: which is obviously the label attached to the input control.
+  * _BuyCarForm Component_ : and this component contains the whole form called the other components to generate controls, and add action to them, and also I handle almost everything in this parent component so it's the single source of truth.
 
-// TODO: complete the readme with all technical decistions
- 
-## Online version 
-- [ebay-buy-car.herokuapp.com](https://ebay-buy-car.herokuapp.com)
+## Testing Details
+* test coverage is 100% for the component
+* used jest and `enzyme` for rendering
+* you can run unit testing using `npm test`
+* you can also run unit testing coverage using `npm run test:coverage`
+
+---
+_Created by:_ Medhat Dawoud ([@med7atdawoud](https://twitter.com/Med7atDawoud))
