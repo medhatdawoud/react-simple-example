@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import Select from 'react-select';
 
 export default class Dropdown extends Component {
+  constructor(props) {
+    super(props);
+
+    this.handleChange = this.handleChange.bind(this)
+  }
+  
   handleChange = (selectedOption) => {
     this.props.onChange(selectedOption);
   }

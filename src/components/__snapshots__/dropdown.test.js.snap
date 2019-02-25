@@ -1,0 +1,891 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component should render label correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    label="models"
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "Jeep",
+          "value": "jeep",
+        },
+        Object {
+          "label": "Tesla",
+          "value": "tesla",
+        },
+      ]
+    }
+    placeholder="- All Models -"
+    selectedOption={
+      Object {
+        "label": "Jeep",
+        "value": "jeep",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label>
+          models
+          :
+        </label>,
+        <StateManager
+          defaultInputValue=""
+          defaultMenuIsOpen={false}
+          defaultValue={null}
+          disabled={true}
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              },
+              Object {
+                "label": "Tesla",
+                "value": "tesla",
+              },
+            ]
+          }
+          placeholder="- All Models -"
+          value={
+            Object {
+              "label": "Jeep",
+              "value": "jeep",
+            }
+          }
+        />,
+      ],
+      "className": "form-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "models",
+            ":",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "models",
+          ":",
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defaultInputValue": "",
+          "defaultMenuIsOpen": false,
+          "defaultValue": null,
+          "disabled": true,
+          "onChange": [Function],
+          "options": Array [
+            Object {
+              "label": "Jeep",
+              "value": "jeep",
+            },
+            Object {
+              "label": "Tesla",
+              "value": "tesla",
+            },
+          ],
+          "placeholder": "- All Models -",
+          "value": Object {
+            "label": "Jeep",
+            "value": "jeep",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label>
+            models
+            :
+          </label>,
+          <StateManager
+            defaultInputValue=""
+            defaultMenuIsOpen={false}
+            defaultValue={null}
+            disabled={true}
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "label": "Jeep",
+                  "value": "jeep",
+                },
+                Object {
+                  "label": "Tesla",
+                  "value": "tesla",
+                },
+              ]
+            }
+            placeholder="- All Models -"
+            value={
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              }
+            }
+          />,
+        ],
+        "className": "form-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "models",
+              ":",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "models",
+            ":",
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultInputValue": "",
+            "defaultMenuIsOpen": false,
+            "defaultValue": null,
+            "disabled": true,
+            "onChange": [Function],
+            "options": Array [
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              },
+              Object {
+                "label": "Tesla",
+                "value": "tesla",
+              },
+            ],
+            "placeholder": "- All Models -",
+            "value": Object {
+              "label": "Jeep",
+              "value": "jeep",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Dropdown component should render label correctly 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    label="models"
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "Jeep",
+          "value": "jeep",
+        },
+        Object {
+          "label": "Tesla",
+          "value": "tesla",
+        },
+      ]
+    }
+    placeholder="- All Models -"
+    selectedOption={
+      Object {
+        "label": "Jeep",
+        "value": "jeep",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label>
+          models
+          :
+        </label>,
+        <StateManager
+          defaultInputValue=""
+          defaultMenuIsOpen={false}
+          defaultValue={null}
+          disabled={true}
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              },
+              Object {
+                "label": "Tesla",
+                "value": "tesla",
+              },
+            ]
+          }
+          placeholder="- All Models -"
+          value={
+            Object {
+              "label": "Jeep",
+              "value": "jeep",
+            }
+          }
+        />,
+      ],
+      "className": "form-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "models",
+            ":",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "models",
+          ":",
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defaultInputValue": "",
+          "defaultMenuIsOpen": false,
+          "defaultValue": null,
+          "disabled": true,
+          "onChange": [Function],
+          "options": Array [
+            Object {
+              "label": "Jeep",
+              "value": "jeep",
+            },
+            Object {
+              "label": "Tesla",
+              "value": "tesla",
+            },
+          ],
+          "placeholder": "- All Models -",
+          "value": Object {
+            "label": "Jeep",
+            "value": "jeep",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label>
+            models
+            :
+          </label>,
+          <StateManager
+            defaultInputValue=""
+            defaultMenuIsOpen={false}
+            defaultValue={null}
+            disabled={true}
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "label": "Jeep",
+                  "value": "jeep",
+                },
+                Object {
+                  "label": "Tesla",
+                  "value": "tesla",
+                },
+              ]
+            }
+            placeholder="- All Models -"
+            value={
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              }
+            }
+          />,
+        ],
+        "className": "form-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "models",
+              ":",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "models",
+            ":",
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultInputValue": "",
+            "defaultMenuIsOpen": false,
+            "defaultValue": null,
+            "disabled": true,
+            "onChange": [Function],
+            "options": Array [
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              },
+              Object {
+                "label": "Tesla",
+                "value": "tesla",
+              },
+            ],
+            "placeholder": "- All Models -",
+            "value": Object {
+              "label": "Jeep",
+              "value": "jeep",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Dropdown component should render options correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    label="models"
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "Jeep",
+          "value": "jeep",
+        },
+        Object {
+          "label": "Tesla",
+          "value": "tesla",
+        },
+      ]
+    }
+    placeholder="- All Models -"
+    selectedOption={
+      Object {
+        "label": "Jeep",
+        "value": "jeep",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label>
+          models
+          :
+        </label>,
+        <StateManager
+          defaultInputValue=""
+          defaultMenuIsOpen={false}
+          defaultValue={null}
+          disabled={true}
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              },
+              Object {
+                "label": "Tesla",
+                "value": "tesla",
+              },
+            ]
+          }
+          placeholder="- All Models -"
+          value={
+            Object {
+              "label": "Jeep",
+              "value": "jeep",
+            }
+          }
+        />,
+      ],
+      "className": "form-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "models",
+            ":",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "models",
+          ":",
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defaultInputValue": "",
+          "defaultMenuIsOpen": false,
+          "defaultValue": null,
+          "disabled": true,
+          "onChange": [Function],
+          "options": Array [
+            Object {
+              "label": "Jeep",
+              "value": "jeep",
+            },
+            Object {
+              "label": "Tesla",
+              "value": "tesla",
+            },
+          ],
+          "placeholder": "- All Models -",
+          "value": Object {
+            "label": "Jeep",
+            "value": "jeep",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label>
+            models
+            :
+          </label>,
+          <StateManager
+            defaultInputValue=""
+            defaultMenuIsOpen={false}
+            defaultValue={null}
+            disabled={true}
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "label": "Jeep",
+                  "value": "jeep",
+                },
+                Object {
+                  "label": "Tesla",
+                  "value": "tesla",
+                },
+              ]
+            }
+            placeholder="- All Models -"
+            value={
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              }
+            }
+          />,
+        ],
+        "className": "form-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "models",
+              ":",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "models",
+            ":",
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultInputValue": "",
+            "defaultMenuIsOpen": false,
+            "defaultValue": null,
+            "disabled": true,
+            "onChange": [Function],
+            "options": Array [
+              Object {
+                "label": "Jeep",
+                "value": "jeep",
+              },
+              Object {
+                "label": "Tesla",
+                "value": "tesla",
+              },
+            ],
+            "placeholder": "- All Models -",
+            "value": Object {
+              "label": "Jeep",
+              "value": "jeep",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Dropdown component should render the right way 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label>
+          :
+        </label>,
+        <StateManager
+          defaultInputValue=""
+          defaultMenuIsOpen={false}
+          defaultValue={null}
+          disabled={true}
+          onChange={[Function]}
+        />,
+      ],
+      "className": "form-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            ":",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          ":",
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "defaultInputValue": "",
+          "defaultMenuIsOpen": false,
+          "defaultValue": null,
+          "disabled": true,
+          "onChange": [Function],
+          "options": undefined,
+          "placeholder": undefined,
+          "value": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label>
+            :
+          </label>,
+          <StateManager
+            defaultInputValue=""
+            defaultMenuIsOpen={false}
+            defaultValue={null}
+            disabled={true}
+            onChange={[Function]}
+          />,
+        ],
+        "className": "form-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+              ":",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+            ":",
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultInputValue": "",
+            "defaultMenuIsOpen": false,
+            "defaultValue": null,
+            "disabled": true,
+            "onChange": [Function],
+            "options": undefined,
+            "placeholder": undefined,
+            "value": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
