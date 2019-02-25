@@ -11,7 +11,7 @@ export default class BuyCarForm extends Component {
     this.state = {
       selectedBrand:null,
       selectedModel:null,
-      keywords: null,
+      keywords: '',
       brands: [],
       models: []
     };
@@ -41,7 +41,7 @@ export default class BuyCarForm extends Component {
   }
 
   resetSearch = () => {
-    this.setState({selectedBrand:null,selectedModel:null, keywords:null});
+    this.setState({selectedBrand:null,selectedModel:null, keywords:''});
     this.models = [];
   }
 
@@ -51,7 +51,7 @@ export default class BuyCarForm extends Component {
       <div className="card BuyCarForm">
         <div className="card-header">
           <strong>Buy a car</strong>
-          <button className="btn btn-sm btn-info float-right" onClick={this.resetSearch}>reset</button>
+          <button className="btn btn-sm btn-link float-right" onClick={this.resetSearch}>reset</button>
         </div>
         <div className="card-body">
           <Dropdown label="Brand" 
