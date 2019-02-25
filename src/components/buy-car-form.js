@@ -37,7 +37,7 @@ export default class BuyCarForm extends Component {
   } 
 
   resetSearch = () => {
-    this.setState({selectedBrand:null,selectedModel:null});
+    this.setState({selectedBrand:null,selectedModel:null, keywords:null});
     this.models = [];
   }
 
