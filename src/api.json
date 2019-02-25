@@ -1,0 +1,69 @@
+{
+  "brands": [
+    "Jeep",
+    "Fiat",
+    "BMW",
+    "Audi",
+    "Volkswagen",
+    "Chevrolet",
+    "Ferrari",
+    "Tesla"
+  ],
+  "models": {
+    "jeep": [
+      "Cherokee",
+      "Compass",
+      "Patriot",
+      "Gladiator",
+      "Renegade"
+    ],
+    "fiat": [
+      "124",
+      "500",
+      "Fullback",
+      "Punto",
+      "Tipo"
+    ],
+    "bmw": [
+      "X1",
+      "X2",
+      "X3",
+      "2 Series",
+      "3 Series"
+    ],
+    "audi": [
+      "A1",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "volkswagen": [
+      "Arteon",
+      "Atlas",
+      "Beetle",
+      "Golf",
+      "Geeta"
+    ],
+    "chevrolet": [
+      "Camaro",
+      "Bolt",
+      "Blazer",
+      "Captiva"
+    ],
+    "ferrari": [
+      "488 GTB",
+      "488 GTS",
+      "LaFerrari",
+      "California",
+      "Purosangue"
+    ],
+    "tesla": [
+      "Roadster",
+      "Model 3",
+      "Model Y",
+      "Model X",
+      "Model S"
+    ]
+  }
+}
