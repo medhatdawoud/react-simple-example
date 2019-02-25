@@ -33,11 +33,6 @@ describe('Dropdown component', () => {
   })
 
   it('should render the right way', () => {
-    const component = shallow(<Dropdown />);
-    expect(component).toMatchSnapshot()
-  })
-
-  it('should render label correctly', () => {
     expect(component).toMatchSnapshot()
   });
 
@@ -46,11 +41,7 @@ describe('Dropdown component', () => {
     expect(component.find('label').text()).toBe(label+':');
   });
 
-  it('should render options correctly', () => {
-    expect(component).toMatchSnapshot()
-  });
-
-  it('should handleChange', () => {
+  it('should call onChange function', () => {
     component = mount(
       <Dropdown 
         onChange={props.onChange} 

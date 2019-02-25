@@ -9,6 +9,8 @@ export default class InputText extends Component {
     this.state = {
       value: null
     }
+
+    this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange = (e) => {
