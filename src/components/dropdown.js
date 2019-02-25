@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Select from 'react-select';
 
 export default class Dropdown extends Component {
   constructor(props) {
@@ -8,22 +7,27 @@ export default class Dropdown extends Component {
     this.handleChange = this.handleChange.bind(this)
   }
   
-  handleChange = (selectedOption) => {
-    this.props.onChange(selectedOption);
+  handleChange = (e) => {
+    this.props.onChange(e.target.value);
   }
 
   render() {
-    const { options, selectedOption } = this.props;
+    const { options, selectedOption, placeholder, testHook } = this.props;
     
     return <div className="form-group">
       <label>{this.props.label}:</label>
-      <Select
-        placeholder={this.props.placeholder}
+      <select className="form-control"
+        id={testHook}
         value={selectedOption}
         onChange={this.handleChange}
-        options={options}
-        disabled={!this.options}
-      />
+        disabled={!options.length}>
+
+        <option defaultValue>{placeholder}</option>
+        {options.map((op) => (
+          <option key={op.value} value={op.value}>{op.label}</option>
+        ))}
+
+      </select>
     </div>;
   }
 }

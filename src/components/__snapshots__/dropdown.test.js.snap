@@ -45,32 +45,33 @@ ShallowWrapper {
           models
           :
         </label>,
-        <StateManager
-          defaultInputValue=""
-          defaultMenuIsOpen={false}
-          defaultValue={null}
-          disabled={true}
+        <select
+          className="form-control"
+          disabled={false}
           onChange={[Function]}
-          options={
-            Array [
-              Object {
-                "label": "Jeep",
-                "value": "jeep",
-              },
-              Object {
-                "label": "Tesla",
-                "value": "tesla",
-              },
-            ]
-          }
-          placeholder="- All Models -"
           value={
             Object {
               "label": "Jeep",
               "value": "jeep",
             }
           }
-        />,
+        >
+          <option
+            defaultValue={true}
+          >
+            - All Models -
+          </option>
+          <option
+            value="jeep"
+          >
+            Jeep
+          </option>
+          <option
+            value="tesla"
+          >
+            Tesla
+          </option>
+        </select>,
       ],
       "className": "form-group",
     },
@@ -96,32 +97,76 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "defaultInputValue": "",
-          "defaultMenuIsOpen": false,
-          "defaultValue": null,
-          "disabled": true,
-          "onChange": [Function],
-          "options": Array [
-            Object {
-              "label": "Jeep",
-              "value": "jeep",
-            },
-            Object {
-              "label": "Tesla",
-              "value": "tesla",
-            },
+          "children": Array [
+            <option
+              defaultValue={true}
+            >
+              - All Models -
+            </option>,
+            Array [
+              <option
+                value="jeep"
+              >
+                Jeep
+              </option>,
+              <option
+                value="tesla"
+              >
+                Tesla
+              </option>,
+            ],
           ],
-          "placeholder": "- All Models -",
+          "className": "form-control",
+          "disabled": false,
+          "id": undefined,
+          "onChange": [Function],
           "value": Object {
             "label": "Jeep",
             "value": "jeep",
           },
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "- All Models -",
+              "defaultValue": true,
+            },
+            "ref": null,
+            "rendered": "- All Models -",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "jeep",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Jeep",
+              "value": "jeep",
+            },
+            "ref": null,
+            "rendered": "Jeep",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "tesla",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Tesla",
+              "value": "tesla",
+            },
+            "ref": null,
+            "rendered": "Tesla",
+            "type": "option",
+          },
+        ],
+        "type": "select",
       },
     ],
     "type": "div",
@@ -137,32 +182,33 @@ ShallowWrapper {
             models
             :
           </label>,
-          <StateManager
-            defaultInputValue=""
-            defaultMenuIsOpen={false}
-            defaultValue={null}
-            disabled={true}
+          <select
+            className="form-control"
+            disabled={false}
             onChange={[Function]}
-            options={
-              Array [
-                Object {
-                  "label": "Jeep",
-                  "value": "jeep",
-                },
-                Object {
-                  "label": "Tesla",
-                  "value": "tesla",
-                },
-              ]
-            }
-            placeholder="- All Models -"
             value={
               Object {
                 "label": "Jeep",
                 "value": "jeep",
               }
             }
-          />,
+          >
+            <option
+              defaultValue={true}
+            >
+              - All Models -
+            </option>
+            <option
+              value="jeep"
+            >
+              Jeep
+            </option>
+            <option
+              value="tesla"
+            >
+              Tesla
+            </option>
+          </select>,
         ],
         "className": "form-group",
       },
@@ -188,32 +234,76 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "defaultInputValue": "",
-            "defaultMenuIsOpen": false,
-            "defaultValue": null,
-            "disabled": true,
-            "onChange": [Function],
-            "options": Array [
-              Object {
-                "label": "Jeep",
-                "value": "jeep",
-              },
-              Object {
-                "label": "Tesla",
-                "value": "tesla",
-              },
+            "children": Array [
+              <option
+                defaultValue={true}
+              >
+                - All Models -
+              </option>,
+              Array [
+                <option
+                  value="jeep"
+                >
+                  Jeep
+                </option>,
+                <option
+                  value="tesla"
+                >
+                  Tesla
+                </option>,
+              ],
             ],
-            "placeholder": "- All Models -",
+            "className": "form-control",
+            "disabled": false,
+            "id": undefined,
+            "onChange": [Function],
             "value": Object {
               "label": "Jeep",
               "value": "jeep",
             },
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "- All Models -",
+                "defaultValue": true,
+              },
+              "ref": null,
+              "rendered": "- All Models -",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "jeep",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jeep",
+                "value": "jeep",
+              },
+              "ref": null,
+              "rendered": "Jeep",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "tesla",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Tesla",
+                "value": "tesla",
+              },
+              "ref": null,
+              "rendered": "Tesla",
+              "type": "option",
+            },
+          ],
+          "type": "select",
         },
       ],
       "type": "div",
@@ -289,32 +379,33 @@ ShallowWrapper {
           models
           :
         </label>,
-        <StateManager
-          defaultInputValue=""
-          defaultMenuIsOpen={false}
-          defaultValue={null}
-          disabled={true}
+        <select
+          className="form-control"
+          disabled={false}
           onChange={[Function]}
-          options={
-            Array [
-              Object {
-                "label": "Jeep",
-                "value": "jeep",
-              },
-              Object {
-                "label": "Tesla",
-                "value": "tesla",
-              },
-            ]
-          }
-          placeholder="- All Models -"
           value={
             Object {
               "label": "Jeep",
               "value": "jeep",
             }
           }
-        />,
+        >
+          <option
+            defaultValue={true}
+          >
+            - All Models -
+          </option>
+          <option
+            value="jeep"
+          >
+            Jeep
+          </option>
+          <option
+            value="tesla"
+          >
+            Tesla
+          </option>
+        </select>,
       ],
       "className": "form-group",
     },
@@ -340,32 +431,76 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "defaultInputValue": "",
-          "defaultMenuIsOpen": false,
-          "defaultValue": null,
-          "disabled": true,
-          "onChange": [Function],
-          "options": Array [
-            Object {
-              "label": "Jeep",
-              "value": "jeep",
-            },
-            Object {
-              "label": "Tesla",
-              "value": "tesla",
-            },
+          "children": Array [
+            <option
+              defaultValue={true}
+            >
+              - All Models -
+            </option>,
+            Array [
+              <option
+                value="jeep"
+              >
+                Jeep
+              </option>,
+              <option
+                value="tesla"
+              >
+                Tesla
+              </option>,
+            ],
           ],
-          "placeholder": "- All Models -",
+          "className": "form-control",
+          "disabled": false,
+          "id": undefined,
+          "onChange": [Function],
           "value": Object {
             "label": "Jeep",
             "value": "jeep",
           },
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "- All Models -",
+              "defaultValue": true,
+            },
+            "ref": null,
+            "rendered": "- All Models -",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "jeep",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Jeep",
+              "value": "jeep",
+            },
+            "ref": null,
+            "rendered": "Jeep",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "tesla",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Tesla",
+              "value": "tesla",
+            },
+            "ref": null,
+            "rendered": "Tesla",
+            "type": "option",
+          },
+        ],
+        "type": "select",
       },
     ],
     "type": "div",
@@ -381,32 +516,33 @@ ShallowWrapper {
             models
             :
           </label>,
-          <StateManager
-            defaultInputValue=""
-            defaultMenuIsOpen={false}
-            defaultValue={null}
-            disabled={true}
+          <select
+            className="form-control"
+            disabled={false}
             onChange={[Function]}
-            options={
-              Array [
-                Object {
-                  "label": "Jeep",
-                  "value": "jeep",
-                },
-                Object {
-                  "label": "Tesla",
-                  "value": "tesla",
-                },
-              ]
-            }
-            placeholder="- All Models -"
             value={
               Object {
                 "label": "Jeep",
                 "value": "jeep",
               }
             }
-          />,
+          >
+            <option
+              defaultValue={true}
+            >
+              - All Models -
+            </option>
+            <option
+              value="jeep"
+            >
+              Jeep
+            </option>
+            <option
+              value="tesla"
+            >
+              Tesla
+            </option>
+          </select>,
         ],
         "className": "form-group",
       },
@@ -432,32 +568,76 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "defaultInputValue": "",
-            "defaultMenuIsOpen": false,
-            "defaultValue": null,
-            "disabled": true,
-            "onChange": [Function],
-            "options": Array [
-              Object {
-                "label": "Jeep",
-                "value": "jeep",
-              },
-              Object {
-                "label": "Tesla",
-                "value": "tesla",
-              },
+            "children": Array [
+              <option
+                defaultValue={true}
+              >
+                - All Models -
+              </option>,
+              Array [
+                <option
+                  value="jeep"
+                >
+                  Jeep
+                </option>,
+                <option
+                  value="tesla"
+                >
+                  Tesla
+                </option>,
+              ],
             ],
-            "placeholder": "- All Models -",
+            "className": "form-control",
+            "disabled": false,
+            "id": undefined,
+            "onChange": [Function],
             "value": Object {
               "label": "Jeep",
               "value": "jeep",
             },
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "- All Models -",
+                "defaultValue": true,
+              },
+              "ref": null,
+              "rendered": "- All Models -",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "jeep",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jeep",
+                "value": "jeep",
+              },
+              "ref": null,
+              "rendered": "Jeep",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "tesla",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Tesla",
+                "value": "tesla",
+              },
+              "ref": null,
+              "rendered": "Tesla",
+              "type": "option",
+            },
+          ],
+          "type": "select",
         },
       ],
       "type": "div",

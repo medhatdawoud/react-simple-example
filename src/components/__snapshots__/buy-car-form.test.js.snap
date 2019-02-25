@@ -75,18 +75,21 @@ ShallowWrapper {
               ]
             }
             placeholder="- All Brands -"
-            selectedOption={null}
+            selectedOption=""
+            testHook="S1"
           />
           <Dropdown
             label="Model"
             onChange={[Function]}
             options={Array []}
             placeholder="- select a brand first -"
-            selectedOption={null}
+            selectedOption=""
+            testHook="S2"
           />
           <InputText
             label="Keywords"
             onChange={[Function]}
+            testHook="T"
             value=""
           />
         </div>,
@@ -96,6 +99,7 @@ ShallowWrapper {
           <button
             className="btn btn-primary btn-block"
             disabled={true}
+            id="B"
           >
             Search Cars
           </button>
@@ -198,18 +202,21 @@ ShallowWrapper {
                 ]
               }
               placeholder="- All Brands -"
-              selectedOption={null}
+              selectedOption=""
+              testHook="S1"
             />,
             <Dropdown
               label="Model"
               onChange={[Function]}
               options={Array []}
               placeholder="- select a brand first -"
-              selectedOption={null}
+              selectedOption=""
+              testHook="S2"
             />,
             <InputText
               label="Keywords"
               onChange={[Function]}
+              testHook="T"
               value=""
             />,
           ],
@@ -259,7 +266,8 @@ ShallowWrapper {
                 },
               ],
               "placeholder": "- All Brands -",
-              "selectedOption": null,
+              "selectedOption": "",
+              "testHook": "S1",
             },
             "ref": null,
             "rendered": null,
@@ -274,7 +282,8 @@ ShallowWrapper {
               "onChange": [Function],
               "options": Array [],
               "placeholder": "- select a brand first -",
-              "selectedOption": null,
+              "selectedOption": "",
+              "testHook": "S2",
             },
             "ref": null,
             "rendered": null,
@@ -287,6 +296,7 @@ ShallowWrapper {
             "props": Object {
               "label": "Keywords",
               "onChange": [Function],
+              "testHook": "T",
               "value": "",
             },
             "ref": null,
@@ -304,6 +314,7 @@ ShallowWrapper {
           "children": <button
             className="btn btn-primary btn-block"
             disabled={true}
+            id="B"
           >
             Search Cars
           </button>,
@@ -318,6 +329,7 @@ ShallowWrapper {
             "children": "Search Cars",
             "className": "btn btn-primary btn-block",
             "disabled": true,
+            "id": "B",
           },
           "ref": null,
           "rendered": "Search Cars",
@@ -391,18 +403,21 @@ ShallowWrapper {
                 ]
               }
               placeholder="- All Brands -"
-              selectedOption={null}
+              selectedOption=""
+              testHook="S1"
             />
             <Dropdown
               label="Model"
               onChange={[Function]}
               options={Array []}
               placeholder="- select a brand first -"
-              selectedOption={null}
+              selectedOption=""
+              testHook="S2"
             />
             <InputText
               label="Keywords"
               onChange={[Function]}
+              testHook="T"
               value=""
             />
           </div>,
@@ -412,6 +427,7 @@ ShallowWrapper {
             <button
               className="btn btn-primary btn-block"
               disabled={true}
+              id="B"
             >
               Search Cars
             </button>
@@ -514,18 +530,21 @@ ShallowWrapper {
                   ]
                 }
                 placeholder="- All Brands -"
-                selectedOption={null}
+                selectedOption=""
+                testHook="S1"
               />,
               <Dropdown
                 label="Model"
                 onChange={[Function]}
                 options={Array []}
                 placeholder="- select a brand first -"
-                selectedOption={null}
+                selectedOption=""
+                testHook="S2"
               />,
               <InputText
                 label="Keywords"
                 onChange={[Function]}
+                testHook="T"
                 value=""
               />,
             ],
@@ -575,7 +594,8 @@ ShallowWrapper {
                   },
                 ],
                 "placeholder": "- All Brands -",
-                "selectedOption": null,
+                "selectedOption": "",
+                "testHook": "S1",
               },
               "ref": null,
               "rendered": null,
@@ -590,7 +610,8 @@ ShallowWrapper {
                 "onChange": [Function],
                 "options": Array [],
                 "placeholder": "- select a brand first -",
-                "selectedOption": null,
+                "selectedOption": "",
+                "testHook": "S2",
               },
               "ref": null,
               "rendered": null,
@@ -603,6 +624,7 @@ ShallowWrapper {
               "props": Object {
                 "label": "Keywords",
                 "onChange": [Function],
+                "testHook": "T",
                 "value": "",
               },
               "ref": null,
@@ -620,6 +642,7 @@ ShallowWrapper {
             "children": <button
               className="btn btn-primary btn-block"
               disabled={true}
+              id="B"
             >
               Search Cars
             </button>,
@@ -634,6 +657,7 @@ ShallowWrapper {
               "children": "Search Cars",
               "className": "btn btn-primary btn-block",
               "disabled": true,
+              "id": "B",
             },
             "ref": null,
             "rendered": "Search Cars",

@@ -8,8 +8,7 @@
     "enzyme-adapter-react-16": "^1.9.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
-    "react-select": "^2.4.1"
+    "react-scripts": "2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -9,12 +9,16 @@ export default class BuyCarForm extends Component {
     super(props);
 
     this.state = {
-      selectedBrand:null,
-      selectedModel:null,
+      selectedBrand:'',
+      selectedModel:'',
       keywords: '',
       brands: [],
       models: []
     };
+
+    this.onBrandChange = this.onBrandChange.bind(this);
+    this.onModelChange = this.onModelChange.bind(this);
+    this.onKeywordsChange = this.onKeywordsChange.bind(this);
   }
 
   brands = API_Data.brands.map(brand => ({
@@ -25,8 +29,8 @@ export default class BuyCarForm extends Component {
   models = [];
 
   onBrandChange = (brand) => {
-    this.setState({selectedBrand:brand,selectedModel:null});
-    this.models = API_Data.models[brand.value].map(brand => ({
+    this.setState({selectedBrand : brand, selectedModel : ''});
+    this.models = API_Data.models[brand].map(brand => ({
       value: brand.toLowerCase(),
       label: brand
     }));
@@ -41,7 +45,7 @@ export default class BuyCarForm extends Component {
   }
 
   resetSearch = () => {
-    this.setState({selectedBrand:null,selectedModel:null, keywords:''});
+    this.setState({selectedBrand:'',selectedModel:'', keywords:''});
     this.models = [];
   }
 
@@ -55,19 +59,24 @@ export default class BuyCarForm extends Component {
         </div>
         <div className="card-body">
           <Dropdown label="Brand" 
+                testHook="S1"
                 placeholder="- All Brands -" 
                 selectedOption={selectedBrand}
                 onChange={this.onBrandChange} 
                 options={this.brands}/>
           <Dropdown label="Model" 
+                testHook="S2"
                 placeholder="- select a brand first -" 
                 selectedOption={selectedModel}
                 onChange={this.onModelChange} 
                 options={this.models}/>
-          <InputText value={keywords} onChange={this.onKeywordsChange} label="Keywords" />
+          <InputText label="Keywords"
+                testHook="T"
+                value={keywords} 
+                onChange={this.onKeywordsChange}  />
         </div>
         <div className="card-footer">
-          <button className="btn btn-primary btn-block" disabled={!selectedBrand && !selectedModel && !keywords}>Search Cars</button>
+          <button className="btn btn-primary btn-block" id="B" disabled={!selectedBrand && !selectedModel && !keywords}>Search Cars</button>
         </div>
       </div>
     )

@@ -23,39 +23,39 @@ describe('BuyCarForm component', () => {
   });
 
   it('should change the brand successfully', () => {
-    const mockBrand = {value:'bmw', label: "BMW"};
+    const mockBrand = 'bmw';
     component.instance().onBrandChange(mockBrand);
 
-    expect(component.state("selectedBrand")).toBe(mockBrand);
+    expect(component.state('selectedBrand')).toBe(mockBrand);
   });
 
   it('should not have selected model after select brand', () => {
-    const mockBrand = {value:'bmw', label: "BMW"};
+    const mockBrand = 'bmw';
     component.instance().onBrandChange(mockBrand);
 
-    expect(component.state("selectedModel")).toBe(null);
+    expect(component.state('selectedModel')).toBe('');
   });
 
   it('should change the Model successfully', () => {
-    const mockModel = {value:'x1', label: "X1"};
+    const mockModel = {value:'x1', label: 'X1'};
     component.instance().onModelChange(mockModel);
 
-    expect(component.state("selectedModel")).toBe(mockModel);
+    expect(component.state('selectedModel')).toBe(mockModel);
   });
 
   it('should change the keywords successfully', () => {
-    const mockKeywords = "test keyword";
+    const mockKeywords = 'test keyword';
     component.instance().onKeywordsChange(mockKeywords);
 
-    expect(component.state("keywords")).toBe(mockKeywords);
+    expect(component.state('keywords')).toBe(mockKeywords);
   });
 
   it('should reset all state on calling reset()', () => {
     component.instance().resetSearch();
 
-    expect(component.state("selectedBrand")).toBe(null);
-    expect(component.state("selectedModel")).toBe(null);
-    expect(component.state("keywords")).toBe("");
+    expect(component.state('selectedBrand')).toBe('');
+    expect(component.state('selectedModel')).toBe('');
+    expect(component.state('keywords')).toBe('');
   });
 
 })

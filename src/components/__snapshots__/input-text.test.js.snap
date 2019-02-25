@@ -61,6 +61,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "className": "form-control",
+          "id": undefined,
           "onChange": [Function],
           "type": "text",
           "value": "some key word",
@@ -117,6 +118,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "className": "form-control",
+            "id": undefined,
             "onChange": [Function],
             "type": "text",
             "value": "some key word",
@@ -215,6 +217,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "className": "form-control",
+          "id": undefined,
           "onChange": [Function],
           "type": "text",
           "value": "some key word",
@@ -271,6 +274,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "className": "form-control",
+            "id": undefined,
             "onChange": [Function],
             "type": "text",
             "value": "some key word",

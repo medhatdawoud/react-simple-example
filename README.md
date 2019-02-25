@@ -11,7 +11,6 @@
 
 ## App Technical Details
 * About styling as it's not required to spend a lot of time styling I decided to rely on `twitter-bootstrap 4` so this exercise is fully bootstrap style without any written css from my end.
-* For dropdownlist I decided to use some third-party library to help out in building dropdownlist searchable and look like the required example as much as possible, so I decided to install [react-select](https://github.com/JedWatson/react-select) which is making a very good look but actually I findout later that it's pretty cumbersome, so maybe we can replace it later with better lighter tools.
 * Picked `react` to create this simple application
 * The application is created using the `create-react-app` tool
 * React was the obvious tool to pick since the requirements are pretty simple and it only require some view rendering.
@@ -20,7 +19,7 @@
   * _Dropdown Component_ : to generate a dropdownlist with attached label to it, and this component is getting the following list of properties:
     - `label`: which is obviously the label attached to the dropdown list
     - `onChange`: a function to handle the onChange event in the child component.
-    - `placeholder`: to be passed to the dropdown list
+    - `placeholder`: to be passed as default value to the dropdown list
     - `options`: which is list of options to fill the fropdownlist with.
     - `selectedOption`: which is the selected option to be sent from the parent component.
   * _InputText Component_ : to generate a textbox with attached label to it, and this component is getting the following list of properties:

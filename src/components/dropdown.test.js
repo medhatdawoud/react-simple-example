@@ -51,7 +51,7 @@ describe('Dropdown component', () => {
         selectedOption={options[0]} />
     );
 
-    component.find('Select').prop('onChange')();
+    component.find('select').simulate('change');
 
     expect(props.onChange).toHaveBeenCalled();
   })

@@ -22,7 +22,7 @@ export default class InputText extends Component {
   render() {
     return (<div className="form-group">
       <label>{this.props.label}:</label>
-      <input type="text" onChange={this.handleChange} value={this.props.value} className="form-control" />
+      <input type="text" id={this.props.testHook} onChange={this.handleChange} value={this.props.value} className="form-control" />
     </div>)
   }
 }
