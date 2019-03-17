@@ -18,5 +18,8 @@
 * you can run unit testing using `npm test`
 * you can also run unit testing coverage using `npm run test:coverage`
 
+## Episodes that used this example
+* [UnitTesting with jest and enzyme - Part 1 [Arabic Video]](https://www.youtube.com/watch?v=AuXJ84fjD5Y)
+
 ---
 _Created by:_ Medhat Dawoud ([@med7atdawoud](https://twitter.com/Med7atDawoud))
